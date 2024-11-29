@@ -25,7 +25,7 @@ services:
     depends_on:
       - letta_db
     ports:
-      - "8083:8083"
+      - "8993:8083"
       - "8283:8283"
     environment:
       - SERPAPI_API_KEY=${SERPAPI_API_KEY}
