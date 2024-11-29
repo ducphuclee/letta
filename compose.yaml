@@ -27,7 +27,7 @@ services:
       letta_db:
         condition: service_healthy
     ports:
-      - "8083:8083"
+      - "8993:8083"
       - "8283:8283"
     env_file:
       - .env
